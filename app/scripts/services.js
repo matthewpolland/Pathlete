@@ -1,7 +1,8 @@
+
 angular.module('pathleteApp.services', [])
 
 .factory('Info', function ($http) {
-  // Your code here
+  console.log("IN FACTORY");
   var getInfo = function(){
     return $http({
       method: 'GET',

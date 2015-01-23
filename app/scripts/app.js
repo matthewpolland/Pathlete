@@ -8,6 +8,6 @@
  *
  * Main module of the application.
  */
-angular
+var app = angular
   .module('pathleteApp', ['pathleteApp.services']);
 
