@@ -1,4 +1,4 @@
-'use strict';
+//'use strict';
 
 /**
  * @ngdoc function
@@ -7,8 +7,8 @@
  * # MainCtrl
  * Controller of the pathleteApp
  */
-angular.module('pathleteApp')
-  .controller('MainCtrl', function ($scope, $http, Info) {
+angular.module('pathleteApp',[])
+  .controller('MainCtrl', function ($scope, $http) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
